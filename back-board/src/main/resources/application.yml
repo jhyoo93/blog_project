@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+# JPA
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://211.110.58.245:1433;databaseName=EluoDev;encrypt=true;trustServerCertificate=true
+    username: eluodev2
+    password: "~eluo0904"
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 110MB
+        
+        
