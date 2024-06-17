@@ -36,7 +36,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
   // 회사 mssql 드라이버
 	runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
-  // 집 mysql 드라이버
+  // 개인 mysql 드라이버
   //runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
